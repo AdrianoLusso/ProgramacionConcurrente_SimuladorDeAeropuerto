@@ -1,0 +1,346 @@
+PASAJES:
+destino:2, aerolineas:0, horario:10:16
+destino:4, aerolineas:0, horario:12:26
+destino:1, aerolineas:2, horario:10:45
+destino:6, aerolineas:2, horario:21:43
+INFOVUELOS:
+terminal:C, puestoEmbarque:16, pasaje:(destino:2, aerolineas:0, horario:10:16)
+terminal:A, puestoEmbarque:4, pasaje:(destino:4, aerolineas:0, horario:12:26)
+terminal:C, puestoEmbarque:17, pasaje:(destino:1, aerolineas:2, horario:10:45)
+terminal:B, puestoEmbarque:14, pasaje:(destino:6, aerolineas:2, horario:21:43)
+----------------------------
+HORA: 00:00
+El pasajero 9 obtuvo el pasaje destino:1, aerolineas:2, horario:10:45
+El pasajero 5 obtuvo el pasaje destino:1, aerolineas:2, horario:10:45
+El pasajero 0 obtuvo el pasaje destino:1, aerolineas:2, horario:10:45
+El pasajero 9 obtuvo el pasaje destino:1, aerolineas:2, horario:10:45
+El pasajero 12 obtuvo el pasaje destino:2, aerolineas:0, horario:10:16
+El pasajero 1 obtuvo el pasaje destino:1, aerolineas:2, horario:10:45
+El pasajero 10 obtuvo el pasaje destino:4, aerolineas:0, horario:12:26
+El pasajero 16 obtuvo el pasaje destino:2, aerolineas:0, horario:10:16
+El pasajero 14 obtuvo el pasaje destino:2, aerolineas:0, horario:10:16
+El pasajero 14 obtuvo el pasaje destino:2, aerolineas:0, horario:10:16
+El pasajero 3 obtuvo el pasaje destino:1, aerolineas:2, horario:10:45
+El pasajero 3 obtuvo el pasaje destino:1, aerolineas:2, horario:10:45
+El pasajero 15 obtuvo el pasaje destino:4, aerolineas:0, horario:12:26
+El pasajero 14 esta esperando para entrar al puesto de informes
+El pasajero 15 obtuvo el pasaje destino:4, aerolineas:0, horario:12:26
+El pasajero 15 esta esperando para entrar al puesto de informes
+El pasajero 16 obtuvo el pasaje destino:2, aerolineas:0, horario:10:16
+El pasajero 10 obtuvo el pasaje destino:4, aerolineas:0, horario:12:26
+El pasajero 2 obtuvo el pasaje destino:6, aerolineas:2, horario:21:43
+El pasajero 1 obtuvo el pasaje destino:1, aerolineas:2, horario:10:45
+El pasajero 11 obtuvo el pasaje destino:2, aerolineas:0, horario:10:16
+El pasajero 12 obtuvo el pasaje destino:2, aerolineas:0, horario:10:16
+El pasajero 8 obtuvo el pasaje destino:2, aerolineas:0, horario:10:16
+El pasajero 4 obtuvo el pasaje destino:1, aerolineas:2, horario:10:45
+El pasajero 7 obtuvo el pasaje destino:1, aerolineas:2, horario:10:45
+El pasajero 7 obtuvo el pasaje destino:1, aerolineas:2, horario:10:45
+El pasajero 13 obtuvo el pasaje destino:2, aerolineas:0, horario:10:16
+El pasajero 5 obtuvo el pasaje destino:1, aerolineas:2, horario:10:45
+El pasajero 6 obtuvo el pasaje destino:2, aerolineas:0, horario:10:16
+El pasajero 0 obtuvo el pasaje destino:1, aerolineas:2, horario:10:45
+El pasajero 6 obtuvo el pasaje destino:2, aerolineas:0, horario:10:16
+El pasajero 5 esta esperando para entrar al puesto de informes
+El pasajero 13 obtuvo el pasaje destino:2, aerolineas:0, horario:10:16
+El pasajero 7 esta esperando para entrar al puesto de informes
+El pasajero 4 obtuvo el pasaje destino:1, aerolineas:2, horario:10:45
+El pasajero 8 obtuvo el pasaje destino:2, aerolineas:0, horario:10:16
+El pasajero 12 esta esperando para entrar al puesto de informes
+El pasajero 11 obtuvo el pasaje destino:2, aerolineas:0, horario:10:16
+El pasajero 1 esta esperando para entrar al puesto de informes
+El pasajero 2 obtuvo el pasaje destino:6, aerolineas:2, horario:21:43
+El pasajero 10 esta esperando para entrar al puesto de informes
+El pasajero 16 esta esperando para entrar al puesto de informes
+El pasajero 9 esta esperando para entrar al puesto de informes
+El pasajero 3 esta esperando para entrar al puesto de informes
+El pasajero 2 esta esperando para entrar al puesto de informes
+El pasajero 11 esta esperando para entrar al puesto de informes
+El pasajero 8 esta esperando para entrar al puesto de informes
+El pasajero 4 esta esperando para entrar al puesto de informes
+El pasajero 13 esta esperando para entrar al puesto de informes
+El pasajero 6 esta esperando para entrar al puesto de informes
+El pasajero 0 esta esperando para entrar al puesto de informes
+El mover arranco el motor.
+El pasajero 14 entro al puesto de informes
+El empleado de informe empezo su dia de trabajo.
+El pasajero 14 le da el pasaje al emp de informe
+El mover esta esperando que se llene de gente, o pase el tiempo de espera.
+El emp de informe espera a recibir un pasaje
+El emp de informe recibe un pasaje
+El freeshop A empieza a atender gente.
+El emp de informe esta leyendo el pasaje (destino:2, aerolineas:0, horario:10:16)
+El freeshop B empieza a atender gente.
+El empleado de atencion 3 empieza el dia de trabajo.
+El empleado de atencion 0 empieza el dia de trabajo.
+El empleado de atencion 2 empieza el dia de trabajo.
+El empleado de atencion 1 empieza el dia de trabajo.
+El freeshop C empieza a atender gente.
+Empleado de embarque A empezo su dia de trabajo
+Empleado de embarque C empezo su dia de trabajo
+Empleado de embarque B empezo su dia de trabajo
+HORA: 06:01
+HORA: 06:02
+HORA: 06:03
+HORA: 06:04
+El emp de informe le quiere dar el dato al pasajero
+El emp de informe espera a recibir un pasaje
+El pasajero 14 tomo exitosamente el dato del emp de informe
+El pasajero 14 dejo al puesto de informes
+El pasajero 15 entro al puesto de informes
+El pasajero 15 le da el pasaje al emp de informe
+El emp de informe recibe un pasaje
+El emp de informe esta leyendo el pasaje (destino:4, aerolineas:0, horario:12:26)
+El pasajero 14 con pasaje(destino:2, aerolineas:0, horario:10:16) obtuvo el puesto de atencion 0
+El pasajero 14 esta en el hall central.
+El pasajero 14 entro al puesto de atencion.
+El pasajero 14 le entrega el pasaje al emp de atencion.
+HORA: 06:05
+HORA: 06:06
+HORA: 06:07
+HORA: 06:08
+HORA: 06:09
+El emp de informe le quiere dar el dato al pasajero
+El emp de informe espera a recibir un pasaje
+El pasajero 15 tomo exitosamente el dato del emp de informe
+El pasajero 15 dejo al puesto de informes
+El pasajero 15 con pasaje(destino:4, aerolineas:0, horario:12:26) obtuvo el puesto de atencion 0
+El pasajero 5 entro al puesto de informes
+El pasajero 15 esta en el hall central.
+El pasajero 15 entro al puesto de atencion.
+El pasajero 5 le da el pasaje al emp de informe
+El pasajero 15 le entrega el pasaje al emp de atencion.
+El emp de informe recibe un pasaje
+El emp de informe esta leyendo el pasaje (destino:1, aerolineas:2, horario:10:45)
+HORA: 06:10
+HORA: 06:11
+HORA: 06:12
+HORA: 06:13
+El emp de informe le quiere dar el dato al pasajero
+HORA: 06:14
+El pasajero 5 tomo exitosamente el dato del emp de informe
+El pasajero 5 dejo al puesto de informes
+El emp de informe espera a recibir un pasaje
+El pasajero 7 entro al puesto de informes
+El pasajero 5 con pasaje(destino:1, aerolineas:2, horario:10:45) obtuvo el puesto de atencion 2
+El pasajero 7 le da el pasaje al emp de informe
+El pasajero 5 esta en el hall central.
+El emp de informe recibe un pasaje
+El pasajero 5 entro al puesto de atencion.
+El pasajero 5 le entrega el pasaje al emp de atencion.
+El emp de informe esta leyendo el pasaje (destino:1, aerolineas:2, horario:10:45)
+HORA: 06:15
+HORA: 06:16
+HORA: 06:17
+HORA: 06:18
+El emp de informe le quiere dar el dato al pasajero
+El emp de informe espera a recibir un pasaje
+El pasajero 7 tomo exitosamente el dato del emp de informe
+El pasajero 7 dejo al puesto de informes
+El pasajero 7 con pasaje(destino:1, aerolineas:2, horario:10:45) obtuvo el puesto de atencion 2
+El pasajero 12 entro al puesto de informes
+El pasajero 7 esta en el hall central.
+El pasajero 12 le da el pasaje al emp de informe
+El pasajero 7 entro al puesto de atencion.
+El emp de informe recibe un pasaje
+El pasajero 7 le entrega el pasaje al emp de atencion.
+El emp de informe esta leyendo el pasaje (destino:2, aerolineas:0, horario:10:16)
+HORA: 06:19
+HORA: 06:20
+HORA: 06:21
+HORA: 06:22
+HORA: 06:23
+El emp de informe le quiere dar el dato al pasajero
+El emp de informe espera a recibir un pasaje
+El pasajero 12 tomo exitosamente el dato del emp de informe
+El pasajero 12 dejo al puesto de informes
+El pasajero 12 con pasaje(destino:2, aerolineas:0, horario:10:16) obtuvo el puesto de atencion 0
+El pasajero 1 entro al puesto de informes
+El pasajero 1 le da el pasaje al emp de informe
+El pasajero 12 esta en el hall central.
+El emp de informe recibe un pasaje
+El emp de informe esta leyendo el pasaje (destino:1, aerolineas:2, horario:10:45)
+El pasajero 12debe esperar en el hall a que haya lugar para hacer fila en su puesto de atencion.
+HORA: 06:24
+HORA: 06:25
+HORA: 06:26
+HORA: 06:27
+HORA: 06:28
+El emp de informe le quiere dar el dato al pasajero
+El emp de informe espera a recibir un pasaje
+El pasajero 1 tomo exitosamente el dato del emp de informe
+El pasajero 1 dejo al puesto de informes
+El pasajero 10 entro al puesto de informes
+El pasajero 10 le da el pasaje al emp de informe
+El pasajero 1 con pasaje(destino:1, aerolineas:2, horario:10:45) obtuvo el puesto de atencion 2
+El emp de informe recibe un pasaje
+El pasajero 1 esta en el hall central.
+El emp de informe esta leyendo el pasaje (destino:4, aerolineas:0, horario:12:26)
+El pasajero 1debe esperar en el hall a que haya lugar para hacer fila en su puesto de atencion.
+HORA: 06:29
+HORA: 06:30
+HORA: 06:31
+HORA: 06:32
+El emp de informe le quiere dar el dato al pasajero
+El emp de informe espera a recibir un pasaje
+El pasajero 10 tomo exitosamente el dato del emp de informe
+El pasajero 10 dejo al puesto de informes
+El pasajero 10 con pasaje(destino:4, aerolineas:0, horario:12:26) obtuvo el puesto de atencion 0
+El pasajero 16 entro al puesto de informes
+El pasajero 10 esta en el hall central.
+El pasajero 10debe esperar en el hall a que haya lugar para hacer fila en su puesto de atencion.
+El pasajero 16 le da el pasaje al emp de informe
+El emp de informe recibe un pasaje
+El emp de informe esta leyendo el pasaje (destino:2, aerolineas:0, horario:10:16)
+HORA: 06:33
+HORA: 06:34
+HORA: 06:35
+HORA: 06:36
+HORA: 06:37
+El emp de informe le quiere dar el dato al pasajero
+El emp de informe espera a recibir un pasaje
+El pasajero 16 tomo exitosamente el dato del emp de informe
+El pasajero 16 dejo al puesto de informes
+El pasajero 16 con pasaje(destino:2, aerolineas:0, horario:10:16) obtuvo el puesto de atencion 0
+El pasajero 16 esta en el hall central.
+El pasajero 9 entro al puesto de informes
+El pasajero 9 le da el pasaje al emp de informe
+El pasajero 16debe esperar en el hall a que haya lugar para hacer fila en su puesto de atencion.
+El emp de informe recibe un pasaje
+El emp de informe esta leyendo el pasaje (destino:1, aerolineas:2, horario:10:45)
+HORA: 06:38
+HORA: 06:39
+HORA: 06:40
+HORA: 06:41
+HORA: 06:42
+El emp de informe le quiere dar el dato al pasajero
+El emp de informe espera a recibir un pasaje
+El pasajero 9 tomo exitosamente el dato del emp de informe
+El pasajero 9 dejo al puesto de informes
+El pasajero 9 con pasaje(destino:1, aerolineas:2, horario:10:45) obtuvo el puesto de atencion 2
+El pasajero 9 esta en el hall central.
+El pasajero 3 entro al puesto de informes
+El pasajero 9debe esperar en el hall a que haya lugar para hacer fila en su puesto de atencion.
+El pasajero 3 le da el pasaje al emp de informe
+El emp de informe recibe un pasaje
+El emp de informe esta leyendo el pasaje (destino:1, aerolineas:2, horario:10:45)
+HORA: 06:43
+HORA: 06:44
+HORA: 06:45
+HORA: 06:46
+El emp de informe le quiere dar el dato al pasajero
+El emp de informe espera a recibir un pasaje
+El pasajero 3 tomo exitosamente el dato del emp de informe
+El pasajero 3 dejo al puesto de informes
+El pasajero 3 con pasaje(destino:1, aerolineas:2, horario:10:45) obtuvo el puesto de atencion 2
+El pasajero 2 entro al puesto de informes
+El pasajero 3 esta en el hall central.
+El pasajero 3debe esperar en el hall a que haya lugar para hacer fila en su puesto de atencion.
+El pasajero 2 le da el pasaje al emp de informe
+El emp de informe recibe un pasaje
+El emp de informe esta leyendo el pasaje (destino:6, aerolineas:2, horario:21:43)
+HORA: 06:47
+HORA: 06:48
+HORA: 06:49
+HORA: 06:50
+HORA: 06:51
+El emp de informe le quiere dar el dato al pasajero
+El emp de informe espera a recibir un pasaje
+El pasajero 2 tomo exitosamente el dato del emp de informe
+El pasajero 2 dejo al puesto de informes
+El pasajero 2 con pasaje(destino:6, aerolineas:2, horario:21:43) obtuvo el puesto de atencion 2
+El pasajero 11 entro al puesto de informes
+El pasajero 2 esta en el hall central.
+El pasajero 11 le da el pasaje al emp de informe
+El pasajero 2debe esperar en el hall a que haya lugar para hacer fila en su puesto de atencion.
+El emp de informe recibe un pasaje
+El emp de informe esta leyendo el pasaje (destino:2, aerolineas:0, horario:10:16)
+HORA: 06:52
+HORA: 06:53
+HORA: 06:54
+HORA: 06:55
+HORA: 06:56
+El emp de informe le quiere dar el dato al pasajero
+El emp de informe espera a recibir un pasaje
+El pasajero 11 tomo exitosamente el dato del emp de informe
+El pasajero 11 dejo al puesto de informes
+El pasajero 11 con pasaje(destino:2, aerolineas:0, horario:10:16) obtuvo el puesto de atencion 0
+El pasajero 11 esta en el hall central.
+El pasajero 11debe esperar en el hall a que haya lugar para hacer fila en su puesto de atencion.
+El pasajero 8 entro al puesto de informes
+El pasajero 8 le da el pasaje al emp de informe
+El emp de informe recibe un pasaje
+El emp de informe esta leyendo el pasaje (destino:2, aerolineas:0, horario:10:16)
+HORA: 06:57
+HORA: 06:58
+HORA: 06:59
+HORA: 07:00
+El emp de informe le quiere dar el dato al pasajero
+HORA: 07:01
+El pasajero 8 tomo exitosamente el dato del emp de informe
+El pasajero 8 dejo al puesto de informes
+El emp de informe espera a recibir un pasaje
+El pasajero 4 entro al puesto de informes
+El pasajero 4 le da el pasaje al emp de informe
+El pasajero 8 con pasaje(destino:2, aerolineas:0, horario:10:16) obtuvo el puesto de atencion 0
+El emp de informe recibe un pasaje
+El emp de informe esta leyendo el pasaje (destino:1, aerolineas:2, horario:10:45)
+El pasajero 8 esta en el hall central.
+El pasajero 8debe esperar en el hall a que haya lugar para hacer fila en su puesto de atencion.
+HORA: 07:02
+HORA: 07:03
+HORA: 07:04
+HORA: 07:05
+El emp de informe le quiere dar el dato al pasajero
+El emp de informe espera a recibir un pasaje
+El pasajero 4 tomo exitosamente el dato del emp de informe
+El pasajero 4 dejo al puesto de informes
+El pasajero 4 con pasaje(destino:1, aerolineas:2, horario:10:45) obtuvo el puesto de atencion 2
+El pasajero 13 entro al puesto de informes
+El pasajero 4 esta en el hall central.
+El pasajero 13 le da el pasaje al emp de informe
+El emp de informe recibe un pasaje
+El pasajero 4debe esperar en el hall a que haya lugar para hacer fila en su puesto de atencion.
+El emp de informe esta leyendo el pasaje (destino:2, aerolineas:0, horario:10:16)
+HORA: 07:06
+HORA: 07:07
+HORA: 07:08
+HORA: 07:09
+HORA: 07:10
+El emp de informe le quiere dar el dato al pasajero
+El emp de informe espera a recibir un pasaje
+El pasajero 13 tomo exitosamente el dato del emp de informe
+El pasajero 13 dejo al puesto de informes
+El pasajero 13 con pasaje(destino:2, aerolineas:0, horario:10:16) obtuvo el puesto de atencion 0
+El pasajero 13 esta en el hall central.
+El pasajero 13debe esperar en el hall a que haya lugar para hacer fila en su puesto de atencion.
+El pasajero 6 entro al puesto de informes
+El pasajero 6 le da el pasaje al emp de informe
+El emp de informe recibe un pasaje
+El emp de informe esta leyendo el pasaje (destino:2, aerolineas:0, horario:10:16)
+HORA: 07:11
+HORA: 07:12
+HORA: 07:13
+HORA: 07:14
+HORA: 07:15
+El emp de informe le quiere dar el dato al pasajero
+El emp de informe espera a recibir un pasaje
+El pasajero 6 tomo exitosamente el dato del emp de informe
+El pasajero 6 dejo al puesto de informes
+El pasajero 6 con pasaje(destino:2, aerolineas:0, horario:10:16) obtuvo el puesto de atencion 0
+El pasajero 6 esta en el hall central.
+El pasajero 0 entro al puesto de informes
+El pasajero 6debe esperar en el hall a que haya lugar para hacer fila en su puesto de atencion.
+El pasajero 0 le da el pasaje al emp de informe
+El emp de informe recibe un pasaje
+El emp de informe esta leyendo el pasaje (destino:1, aerolineas:2, horario:10:45)
+HORA: 07:16
+HORA: 07:17
+HORA: 07:18
+HORA: 07:19
+El emp de informe le quiere dar el dato al pasajero
+El pasajero 0 tomo exitosamente el dato del emp de informe
+El pasajero 0 dejo al puesto de informes
+El pasajero 0 con pasaje(destino:1, aerolineas:2, horario:10:45) obtuvo el puesto de atencion 2
+El pasajero 0 esta en el hall central.
+El pasajero 0debe esperar en el hall a que haya l

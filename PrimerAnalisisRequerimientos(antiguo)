@@ -1,0 +1,120 @@
+
+ESTE ANALISIS NO REPRESENTA, EN ALGUNOS ASPECTOS, EL RESULTADO FINAL. PUEDE SER INTERESANTE LEERLO SOLO PARA 
+ANALIZAR MI ESTRATEGIA A LA HORA DE ENTENDER EL ENUNCIADO Y COMO ENCARAR SU DESARROLLO.
+
+Recursos compartidos:
+
+    *Ingreso
+
+    *Mover
+
+    *Terminal(En este dominio, sera una coleccion de 3 terminales)
+
+    *Free shop(uno asociado a cada una de las terminales)
+
+Hilos:
+
+    *ControlMover
+
+    *Reloj
+
+    *Pasajero
+
+    *TrabajadorInformes
+
+    *TrabajadorAtencion.Uno por cada aerolineas.
+
+    *Guardia
+
+*trabajadorEmbarque.Uno por cada puerta.
+
+-----------------------------
+
+Puntos de sincronizacion:
+
+*Ingreso:    
+    *Se debe sincronizar el uso del Puesto de informes.Es unico y debe atender un cliente a la vez
+    *Se debe sincronizar cada uno de los N puestos de atencion, pertenecientes a alguna de las respectivas
+    N aerolineas.Cada puesto puede atender un unico cliente a la vez.Cada puesto puede formar una fila de MAX
+    cantidad de pasajeros.
+    *Se debe sincronizar el hall central, lugar donde los pasajeros deben esperar si la fila de su respectivo
+    puesto de atencion esta completo.Un guardia esta encargado de permitirles el paso en tal situacion.
+
+*Terminales
+
+    Para cada terminal...
+    *Se debe sincronizar el acceso al free shop.Los pasajeros SOLO podran acceder cuando tengan tiempo para acceder
+    a este antes del vuelo y haya espacio suficiente.
+    *Se debe sincronizar el acceso a los aviones,cuando sea el horario indicado por la respectiva puerta.
+
+*Mover
+
+    *Se debe sincronizar que el mover este COMPLETO antes de empezar su recorrido.
+    *Se debe sincronizar que el mover este VACIO antes de volver al ingreso del aeropuerto.
+
+*Reloj
+
+    *El reloj se debe sincronizar con TODO el accionar del aeropuerto.Hay acciones que,en determinados horarios,
+    no deben suceder.El rejor debera modificar variables en funcion de la hora,para que estas acciones puedan o no
+    suceder.
+---------------------------------------------
+
+El free shop puede ser llevado a cabo con MONITORES:
+
+    *Se tira random para ver si compra o solo ve.Si toca comprador,se le asignara un numero
+
+    *Se debe regular el trafico de las 2 cajas.Se pensara una fila unica para ambas cajas. Esto sera llevado
+    a cabo con un monitor que ira regulando cuando los hilos pasajeros(compradores) deben o esperar o cuando hay un lugar libre en caja.Cuando se haga el signalAll() a todos los compradores esperando,se analizara si el numero
+    de turno actual corresponde con el de cada comprador.Asi,el comprador con el turno actual podra pasar,y lograremos darle orden al monitor.
+
+
+El ingreso puede ser llevado a cabo con SEMAFOROS:
+
+    *Un semaforo informes para el puesto de informes.
+    *N semaforos atencion para cada uno de los N puestos de atencion.Antes de poder llegar a este semaforo,
+    se verifica si su filaN no llego al maximo.Si ha llegado, va a la sala de espera.
+    *La sala de espera,en si, se representara con otros N semaforos previos a los N semaforos de la sala de atencion.
+    Por ejemplo,si Pepe quiere ir al semaforo de atencion de LAN pero la fila esta llena,se queda esperando en
+    el semaforo sala de espera correspondiente al semaforo de LAN.Internamente sera como una 2da fila exterior,
+    a la vista del usuario se vera como un hall central en comun entre todos los pasajeros en espera.
+
+El mover puede ser llevado a cabo con LOCKS CON CONDICIONES:
+
+    
+    *Cuando no hay mas lugar en el mover,se debe bloquear el paso a mas pasajeros   
+    *Cuando esta lleno(salvo excpeciones) el mover debe empezar a moverse 
+    *Al llegar a cada terminal,no debe continuar hasta que todos los pasajeros que deban bajar
+    lo hayan hecho.
+    
+    Usaremos un lock con 4 condiciones diferentes:
+        -entrada
+        -arranque
+        -A
+        -B
+        -C
+    
+    -Con entrada se regula que pasen solo el maximo nro de pasajeros al tren
+    -Con arranque haremos que los pasajeros esperen a que se llene el tren y empiezen a viajar juntos
+    -A,B,C sera los locks en los que cada pasajero debe esperar en funcion de la terminal que le corresponde.
+    Se iran signaleando a medida que se llegue a las respectivas terminales.
+    EVALUAR SI CONVIENE USAR UN COUNTDOWNLATCH CON tiempo limite en el await()    
+
+
+    Terminales se pueden llevar a cabo con LOCKS CON CONDICIONES:
+
+    !Cada terminal tendra dentro de si un Free-shop.
+    !Dentro de la terminal,debe verificarse antes de que un pasajero entre al free shop que:
+        -La cantidad de gente es menor igual al max.
+        -Tiene mas de 1:15 horas antes del horario de vuelo(Considerando que las llamadas a embarque
+        son 1 hora antes del vuelo,es decir,se pide tener 15 minutos libres antes del llamado a embarque)
+        -Se tira un math random que determina si quiere ir o no al free shop
+    Si no se cumple estas condiciones, no accedera al free shop
+
+    *Cada pasajero esperara en la condicion que le corresponda.Habra una condicion por cada puerta existente
+    en la terminal.Asi,cuando haya un vuelvo en la puerta 23,solo los de la condicion 23 corroboraran si es el vuelo que les corresponde.De ser asi,salen del lock.
+
+-----------------------------------
+
+El reloj:
+
+Desarrollare el ejercicio sin la limitacion del reloj.Cuando lo haga funcionar asi,lo modificare para agregar esa limitacioon.

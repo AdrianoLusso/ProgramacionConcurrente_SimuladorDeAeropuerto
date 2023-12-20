@@ -1,0 +1,4 @@
+1-Ejecutar codigo del main
+2-Esperar a que termine la ejecucion y salga en consola "SIMULACION TERMINADA :D"
+3-Abrir el archivo output.txt que se creo automaticamente.Con ese archivo podra ver
+toda la consola de forma mas comoda.
