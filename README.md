@@ -1,2 +1,2 @@
 # ProgramacionConcurrente_SimuladorDeAeropuerto
-Repositorio del trabajo práctico final para la materia de "Programación Concurrente".
+Repositorio del trabajo práctico final para la materia de "Programación Concurrente". El objetivo era crear un programa en JAVA que simule la opeerativa de un aeropuerto. Se debian crear diferentes hilos para los pasajeros, empleados del aeropuerto y un mover que comunicara las diferentes terminales. Para la sincronización, se usaran metodos como semaforos, locks con condiciones, monitores, etc...
